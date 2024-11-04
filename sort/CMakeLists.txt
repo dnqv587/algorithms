@@ -1,2 +1,3 @@
 
-add_executable(bubble 冒泡排序.cc)
+add_executable(bubble bubble.cc)
+add_executable(test test.cc)
