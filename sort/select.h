@@ -2,6 +2,12 @@
 #include <array>
 #include <functional>
 
+//***********************************************
+// name      : 选择排序
+// brief     : 时间复杂度：O(n^2)，空间复杂度：O(1)
+// attention : None
+//***********************************************
+
 template <typename T,size_t N,class FUNC>
 void SelectSort(std::array<T,N>& arr,FUNC cmp)
 {
