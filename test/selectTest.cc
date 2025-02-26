@@ -11,5 +11,5 @@ TEST(SortTest,select)
 	  return *l > *r;
 	});
 	using namespace testing;
-	EXPECT_THAT(arr, WhenSorted(ElementsAre(0, 3, 4, 6, 12, 19, 72, 88, 556, 25666)));
+	EXPECT_THAT(arr, WhenSortedBy(std::less(),ElementsAre(0, 3, 4, 6, 12, 19, 72, 88, 556, 25666)));
 }
