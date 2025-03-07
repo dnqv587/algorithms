@@ -11,3 +11,4 @@ link_directories(./3rd/gtest/lib)
 
 enable_testing()
 add_subdirectory(test)
+add_subdirectory(algo)
