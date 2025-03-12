@@ -10,7 +10,7 @@ TEST(SortTest,sort)
   std::array arr{19,88,72,6,556,4,3,25666,12,0,59844,48989,666,15554,1,123,88,88};
 
   //SelectSort(arr.begin(), arr.end(), [](auto l, auto r) { return *l > *r; });
-  QuickSort(arr);
+  HeapSort(arr);
   for (auto i:arr) {
     std::cout<<i<<std::endl;
   }
