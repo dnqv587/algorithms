@@ -1,8 +1,8 @@
 
-add_executable(selectSort selectTest.cc)
+add_executable(SortTest SortTest.cc)
 
-target_link_libraries(selectSort gtest)
-target_link_libraries(selectSort gmock)
-target_link_libraries(selectSort gtest_main)
+target_link_libraries(SortTest gtest)
+target_link_libraries(SortTest gmock)
+target_link_libraries(SortTest gtest_main)
 
-add_test(selectSort COMMAND  selectSort)
+add_test(SortTest COMMAND  SortTest)
