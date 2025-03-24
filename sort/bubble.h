@@ -28,7 +28,7 @@ void bubbleSort(std::array<T,N>& arr,CMP cmp)
 {
     for(int i =0;i<N;++i)
     {
-        for(int j=0;j<N-i;++j)
+        for(int j=0;j<N-i-1;++j)
         {
             if(cmp(arr[j],arr[j+1]))
             {
